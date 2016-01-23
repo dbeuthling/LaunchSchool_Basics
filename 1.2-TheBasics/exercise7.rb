@@ -1,0 +1,1 @@
+'A closed parenthesis was put in instead of a closed curly bracket. Probably at the end of a hash.'
