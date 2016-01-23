@@ -1,0 +1,1 @@
+"The shoes variable was probably created in an inner scope not available to the outer scope that is trying to call it. Or the variable shoes has not been created at all."
