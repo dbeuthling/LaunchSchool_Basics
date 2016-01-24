@@ -12,3 +12,5 @@ def scream(words)
 end
 
 scream("YIPPEE")
+
+# both of these return nil
