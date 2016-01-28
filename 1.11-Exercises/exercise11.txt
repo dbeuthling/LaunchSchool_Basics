@@ -1,0 +1,3 @@
+http://ruby-doc.org/  <-- The reference. This is all I really have experience with
+
+http://docs.rubydocs.org/ruby-2-3-0/  <-- Seems complete but not as handy to look up methods as ruby-doc.org. A good back-up or place for alternate descriptions
