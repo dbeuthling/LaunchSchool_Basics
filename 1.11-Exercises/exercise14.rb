@@ -5,11 +5,18 @@ info = [:email, :address, :phone]
 info.each { |key| contacts["Joe Smith"][key] = contact_data.shift }
 
 p contacts
+
 puts "------"
+#book solution
+
 contact_data = ["joe@email.com", "123 Main st.", "555-123-4567"]
 contacts = {"Joe Smith" => {}}
 fields = [:email, :address, :phone]
 
-contacts.each { |name, hash| fields.each { |field| hash[field] = contact_data.shift }}
+contacts.each do |name, hash|
+  fields.each do |field|
+    hash[field] = contact_data.shift
+  end
+end
 
 p contacts
